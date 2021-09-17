@@ -157,6 +157,8 @@ if (TD_DEBUG_LIVE_THEME_STYLE) {
 
 }
 
+add_filter('login_errors',create_function('$a', "return null;"));
+
 //td_demo_state::update_state("art_creek", 'full');
 
 //print_r(td_global::$all_theme_panels_list);
